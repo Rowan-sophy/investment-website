@@ -1,0 +1,112 @@
+:root{
+    --text-primary:#060606;
+    --bgPrimary:#FFFFFF;
+   --bgSecondary:linear-gradient(
+    180deg,
+    rgba(103, 117, 219, 0.8),
+    rgba(200, 178, 222, 0.8)
+  );
+   --pink: #0071bd;
+   --light-blue: #e6f7ff;
+   --border: #d9d9d9;
+  }
+
+
+.rectangleContainer{
+  padding-right: 16px;
+  padding-bottom: 16px;
+}
+
+.rectangleContainer {
+  height: 280px;
+ 
+}
+.mainRectangle
+{
+  position: relative;
+  background: var(--bgPrimary);
+}
+.mainRectangle
+::before{
+    height: 264px;
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 25px; 
+    padding: 1.5px; 
+   
+    background:linear-gradient(90deg,#BDC0C1,#099ECD ,#FFFFFF,#FFFFFF); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    box-sizing: border-box;
+    min-width: 398px;
+    max-width: 100%;
+  }
+ 
+  .rectangleContainer{
+    padding-bottom: 16px;
+  }
+  .valueStyle{
+    background: var(--bgSecondary) !important;
+  }
+  .rectangle1,
+  .rectangle2 {
+    height: 124px;
+    padding: 16px;
+    margin-bottom: 16px;
+    border-radius: 25px;
+   
+  }
+  .rectangle2{
+    position: relative;
+    background: var(--bgPrimary);
+  }
+  .rectangle2::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 25px; 
+    padding: 1.5px; 
+   
+    background:linear-gradient(90deg,#BDC0C1,#099ECD ,#FFFFFF,#FFFFFF); 
+    -webkit-mask: 
+       linear-gradient(#fff 0 0) content-box, 
+       linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    box-sizing: border-box;
+  
+  }
+  
+ 
+ .rectangle1.ant-statistic{
+    background:var(--bgSecondary) !important;
+  
+  }
+  .ant-statistic-content{
+    margin: 0px !important;
+    padding: 0px !important;
+  }
+  .ant-statistic-title,
+  .ant-statistic-content,
+  .ant-statistic-content-value,
+  .ant-statistic-content-value-decimal,
+  .ant-statistic-content-value-int
+  {
+    background-color: var(--bgSecondary) !important; 
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+
+  }
+  .ant-statistic-content-value-int{
+    background-color: var(--bgSecondary);
+  }
+  .frameInner {
+    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(20px);
+    border: 2px solid var(--color-silver-200);
+  }
