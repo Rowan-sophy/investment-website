@@ -18,9 +18,13 @@ Clone the repository.
 clone repo link
 ```
 2. Install the necessary dependencies using
-```npm install```
-3. Start the development server using
-  ```npm start```
+```
+npm install
+```
+4. Start the development server using
+  ```
+npm start
+```
 
 
 
