@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/static/css/main.12aa3884.css",
+    "main.js": "/static/js/main.9b076660.js",
+    "static/js/208.c39ef860.chunk.js": "/static/js/208.c39ef860.chunk.js",
+    "static/js/293.ea7c9418.chunk.js": "/static/js/293.ea7c9418.chunk.js",
+    "static/js/917.d58420af.chunk.js": "/static/js/917.d58420af.chunk.js",
+    "static/js/516.336b572d.chunk.js": "/static/js/516.336b572d.chunk.js",
+    "static/js/519.3949dd55.chunk.js": "/static/js/519.3949dd55.chunk.js",
+    "static/js/946.6f178e2d.chunk.js": "/static/js/946.6f178e2d.chunk.js",
+    "static/js/160.e6b38d32.chunk.js": "/static/js/160.e6b38d32.chunk.js",
+    "static/js/23.b776dc6c.chunk.js": "/static/js/23.b776dc6c.chunk.js",
+    "static/js/453.e33d084d.chunk.js": "/static/js/453.e33d084d.chunk.js",
+    "static/media/laptop.png": "/static/media/laptop.199696899978d9683624.png",
+    "static/media/iPhoneMockup.png": "/static/media/iPhoneMockup.79a8e971c161708f3a62.png",
+    "static/media/iPhone X Flying Mockup.png": "/static/media/iPhone X Flying Mockup.8cb5bdd4296dcf2504ec.png",
+    "static/media/FinalLogo.svg": "/static/media/FinalLogo.677c77254a6c89cf250cdfd09b7f3ed2.svg",
+    "static/media/userlogo.svg": "/static/media/userlogo.382b90d39f5c5a1ce78078498be893b7.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.12aa3884.css.map": "/static/css/main.12aa3884.css.map",
+    "main.9b076660.js.map": "/static/js/main.9b076660.js.map",
+    "208.c39ef860.chunk.js.map": "/static/js/208.c39ef860.chunk.js.map",
+    "293.ea7c9418.chunk.js.map": "/static/js/293.ea7c9418.chunk.js.map",
+    "917.d58420af.chunk.js.map": "/static/js/917.d58420af.chunk.js.map",
+    "516.336b572d.chunk.js.map": "/static/js/516.336b572d.chunk.js.map",
+    "519.3949dd55.chunk.js.map": "/static/js/519.3949dd55.chunk.js.map",
+    "946.6f178e2d.chunk.js.map": "/static/js/946.6f178e2d.chunk.js.map",
+    "160.e6b38d32.chunk.js.map": "/static/js/160.e6b38d32.chunk.js.map",
+    "23.b776dc6c.chunk.js.map": "/static/js/23.b776dc6c.chunk.js.map",
+    "453.e33d084d.chunk.js.map": "/static/js/453.e33d084d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.12aa3884.css",
+    "static/js/main.9b076660.js"
+  ]
+}
