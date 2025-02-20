@@ -42,6 +42,12 @@
   
 
 }
+.MothionShape{
+  background: black !important;
+  canvas{
+    background: black !important;
+  }
+}
 body{
   
  height: 100vh;

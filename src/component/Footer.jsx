@@ -69,7 +69,7 @@ const Footer =() =>{
            <Col lg={8} className='footer-col2'>
            <h3 className="footer-typography" style={{paddingBottom:'4px'}}> STOCK UNIVERES </h3>
             <Row className="img-logo-container">
-                 <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' /> 
+                 <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' className='MothionShape' /> 
             </Row>
             <span style={{background:'none',color:'white', opacity:'40%',fontSize:'10px'}}> @All copyright reserved for this company at 2024 year</span> 
                
