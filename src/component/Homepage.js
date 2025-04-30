@@ -73,7 +73,7 @@ const Homepage = () =>{
        < MarketTrends simplified/>
        <PhotoSection/>
        <SectionTitle Title={" Companies Analaysis "} subDescribtion={"Explore real-time stock price charts,company financial data and more"} Link={"CompanyDetails"}/>
-      <CompanyDetails simplified />  
+       <CompanyDetails simplified />  
        </div>
     )
 

@@ -43,13 +43,13 @@ const PhotoSection=()=>{
     <Row style={{marginTop:'120px'}}>
     <div className='HeaderSection'   >
       <motion.div className="LAPphoto-container" style={{y: shapeMotion.translateY}}>
-         <img src={ screenSize.width>800?icon:phone} className="LAPphoto"/>
+         <img src={ screenSize.width>1200?icon:phone} className="LAPphoto"/>
       </motion.div>
       
       <div className='mainHeader' style={{padding:'32px'}} >
        <Row style={{background:'none'}} >
        
-         <Col lg={12} xs={24} className="photoSection_photo1">
+         <Col xl={12} lg={24} xs={24}  md={24} sm={24} className="photoSection_photo1">
          <Row style={{background:'none'}}>
           <p  className="photoSectiontitle"> Smart Stock Recommendations for Every Investment Decision</p>
            <TextAnimation text={tex1} classStyle={photoSectionText}/>
@@ -59,7 +59,7 @@ const PhotoSection=()=>{
             <p ><span className="photoSectionSubtext1">buy <RiseOutlined className="table-icon1" /></span> <span className="photoSection_span2">or </span><span className="photoSectionSubtext2"> sell <FallOutlined className="table-icon2"/></span> </p>
             </Row>
          </Col>
-         <Col lg={12} xs={24} className="photoSection_photo2">
+         <Col  xl={12} lg={24} xs={24} md={24} sm={24} className="photoSection_photo2">
          </Col>
         
        </Row>
@@ -67,17 +67,17 @@ const PhotoSection=()=>{
 
     </div>
     </Row>
-    { screenSize.width>800?<>
+    { screenSize.width>1200?<>
       <Row style={{background:'none'}} ref={shapeMotion.container}>
-       <Col lg={12} xs={24} style={{background:'none'}}>
+       <Col lg={12} xs={24} md={24} sm={24} style={{background:'none'}}>
           <QuestionAnswer questions={QuestionAns} />
        </Col>
-       <Col lg={12} xs={24} style={{background:'none'}}></Col>
+       <Col lg={12} xs={24} md={24} sm={24} style={{background:'none'}}></Col>
      </Row>
     </>:<>
     <Row style={{background:'none'}} ref={shapeMotion.container}>
-     <Col lg={12} xs={24} style={{background:'none',height:'110px'}}></Col>
-       <Col lg={12} xs={24} style={{background:'none'}}>
+     <Col lg={24} xs={24} style={{background:'none'}} className="colQuestionSection"></Col>
+       <Col lg={24} xs={24}  style={{background:'none'}}  >
           <QuestionAnswer questions={QuestionAns} />
        </Col>
       

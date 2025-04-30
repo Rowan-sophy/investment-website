@@ -420,7 +420,7 @@ content: "";
 }
 .mainHeader{
   background-color: black !important;
-  width: 1320px;
+  width:97vw;
   height: 532px;
   border-radius: 20px;
   padding: 16px ;
@@ -597,20 +597,28 @@ content: "";
 
 
 @media screen and (max-width:1300px){
-  .main{
-      margin-left: 50px;
+  
+  .mainHeader{
+    width: 96vw;
+  }
+  .headerTitle{
+    font-size: 20vh;
+    font-weight: 700;
   }
 }
 
 @media screen and (max-width:1170px){
-  .main{
-      margin-left: 50px;
+  .headerTitle{
+    font-size: 5vw;
+    font-weight: 700;
   }
 }
 
 @media screen and (max-width:1000px){
-  .main{
-      margin-left: 100px;
+  .headerTitle{
+    font-size: 4vw;
+    font-weight: 700;
+
   }
 }
 
@@ -740,7 +748,7 @@ content: "";
      
   }
   .mainHeader{
-    width:320px;
+    width:95vw;
     border-radius: 8px;
     padding: 16px;
   }
@@ -759,15 +767,19 @@ content: "";
     
   }
   .slide1{
-    top: 16px;
-    right:620px;
+    top: 16px !important;
+    right: 675px !important;
+    width: inherit;
   }
   .slide2{
-    top: 0px;
-    right:-580px;
+    top: 0px !important;
+    right:-580px !important;
+    width: inherit;
   }
   .headerTitle {
-    font-size: 48px;
+    font-size: 14vw !important;
+    font-weight: 550 !important;
+    text-align: center;
   }
   .iconcolor{
     font-size:20px ;
@@ -781,7 +793,13 @@ content: "";
 
   .dShapeContainer{
     background: none !important;
-    height:60%;
+    height:60% !important;
+  }
+  .HeaderSectioncol2{
+    height: 20vh;
+  }
+  .HeaderSectioncol1{
+    height: 20vh;
   }
   .MothionShape{
     background: none; 
@@ -814,8 +832,9 @@ content: "";
     font-weight: 300;
   }
   .page-sub-title{
-    width:100% !important;
-    font-size: 14px;
+    width:100vw!important;
+  text-align: center;
+    font-size: 2.5vw;
     font-weight: 200;
     padding-top:32px;
     margin:0px;
@@ -830,15 +849,16 @@ content: "";
   .home-title-page2,
   .home-title-page3{
    
-    font-size: 32px;
-    width:300px !important;
+    font-size: 8vw;
+    width:90vw !important;
+    font-weight: 750;
   }
   .textAnimation {
-    width:100% !important;
+    width:100vw !important;
   }
   .animation-completed,
   .animation-completed2{
-    width: 300px;
+    width: 100vw;
   }
   .home-heading-container-page{
     padding-top: 8px;
@@ -1478,6 +1498,12 @@ content: "";
   top: 280px !important;
   
 }
+.colChange{
+  width:100% !important
+}
+.colChange2{
+  width:50% !important
+}
 .iphonephoto{
   width: 600px;
   height: 290px;
@@ -1602,6 +1628,66 @@ content: "";
 }
 .ant-progress-bg {
   background: var(--bgSecondary) !important;
+}
+@media screen and (max-width:1200px){
+  .colQuestionSection{
+    height: 300px;
+  }
+  .photoSection_photo2{
+    height: 380px !important;
+  }
+  .LAPphoto-container {
+    left: 180px !important;
+    top:400px !important;
+  }
+  .LAPphoto{
+    height: 380px !important;
+    width: 500px !important;
+  }
+  .chart-container {
+    margin-bottom: 16px;
+
+  }
+  .sub-container2 {
+    padding-left: 0px;
+  }
+  .headerTitle {
+    font-size: 14vw;
+    font-weight: 550;
+    text-align: center;
+  }
+  .slide1 {
+    top:24px;
+    right: 685px;
+    width: inherit;
+
+  }
+  .mainHeaderContainer {
+    height: 100% !important;
+  }
+ 
+  .slide2 {
+    top:-96px;
+    right: -600px;
+    width: inherit;
+
+  }
+  .dShapeContainer{
+    height: 70% ;
+  }
+  .HeaderSectionNote2{
+    display: none;
+   }
+  .HeaderSectioncol1{
+    width: 100%;
+    height: 20vh;
+
+  }
+  .HeaderSectioncol2{
+    width: 100%;
+    height: 20vh;
+
+  }
 }
 @media screen and (max-width:800px){
   .chart-container-box{
@@ -1992,12 +2078,15 @@ input{
     top: 360px;
   }
   .LAPphoto{
-    width: 280px;
+    width: 85vw;
     height: 225px;
   }
   .photoSectiontitle{
     font-weight: 800;
-    font-size: 24px;
+    font-size: 6vw;
+  }
+    .colQuestionSection{
+    height: 110px !important;
   }
   .keyMetricsCol2, .keyMetricsCol3 ,.keyMetricsCol {
     padding-right: 8px;

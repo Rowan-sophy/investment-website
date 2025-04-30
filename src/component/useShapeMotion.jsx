@@ -13,8 +13,8 @@ const useShapeMotion=()=>{
        offset: ['start end', 'end start']
   
      })
-const endpiont= screenSize.width>800? 548:160
-const startpiont= screenSize.width>800? -20:0
+const endpiont= screenSize.width>1200? 548:160
+const startpiont= screenSize.width>1200? -20:0
 const translateY = useTransform(scrollYProgress, [.5, 0], [endpiont, startpiont]);
  return({ translateY,container})
 }

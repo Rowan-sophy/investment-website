@@ -169,7 +169,7 @@ const CompanyDetails =({simplified})=>{
       {simplified?
          <>
          <Row className="dataContainer">
-             <Col xs={24} sm={12} lg={14} className="chart-container" style={{height:'400px'}} >
+             <Col xs={24} sm={24} lg={24} xl={14} className="chart-container" style={{height:'400px'}} >
                  <div className="chart-ticker-title-container">
                    <p className="chart-ticker-title">THE CHANGE IN PRICE IN {ticker} COMPANY</p>
                   </div>
@@ -181,7 +181,7 @@ const CompanyDetails =({simplified})=>{
               
               </Col> 
             
-            <Col lg={10}  xs={24} >
+            <Col lg={24}  sm={24} xs={24} xl={10} >
               <Row className="sub-container2">
                 <Col span={24}  >
                   <Card  className="normal-cardsimple" >
@@ -281,7 +281,7 @@ const CompanyDetails =({simplified})=>{
          </div>     
         </Row>
         { (isFetching)?  <Loader classname={LoaderStyle}/>:<>
-        <Row className="show-type2" style={{justifyContent:'left',alignItems:'flex-start'}}>
+        <Row className="show-type2" style={{justifyContent:'left',alignItems:'flex-start',paddingLeft:'32px'}}>
           <DebounceInput
             placeholder="Search any company in market"
             value={searchTerm}

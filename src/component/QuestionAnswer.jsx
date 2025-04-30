@@ -27,16 +27,16 @@ const QuestionAnswer=({questions})=>{
       
       ];
  return(
-    <>
-       <div className="home-heading-container" style={{paddingTop:'96px',paddingBottom:'48px',paddingLeft:'24px'}}>
+    <div style={{background:"none"}}>
+       <div className="home-heading-container" style={{paddingTop:'96px',paddingBottom:'48px',paddingLeft:'24px',background:'none'}}>
         <Row style={{background:'none'}}>
-          < Col lg={12} xs={24} className="title-container" style={{background:'none'}}>
+          < Col lg={12} xs={24}  md={24} sm={24}className="title-container" style={{background:'none'}}>
                <h2 className="home-title" > Questions & Answers </h2>
           </Col>
         </Row>
         </div>
       <Collapse items={items} bordered={false} defaultActiveKey={['0']} style={{background:'none'}}/>
-    </>
+    </div>
  )
 }
 export default QuestionAnswer;

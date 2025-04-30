@@ -61,7 +61,7 @@ const HeaderSection = ({scrollYProgress}) => {
     
    return(
     <>
-         <motion.div style={{x: translateX, left: props.left ,background:'none' ,display:'flex', whiteSpace:'nowrap', position:'relative',transition:{repeat:"infinite"},zIndex:'100'}}  >
+         <motion.div style={{x: translateX, left: props.left ,background:'none' ,display:'flex', whiteSpace:'nowrap', position:'relative',transition:{repeat:"infinite"},zIndex:'100',width:"inherit"}}  >
             <Phrase text={props.text}  className={props.className}/>
           
          </motion.div>
@@ -75,11 +75,11 @@ const HeaderSection = ({scrollYProgress}) => {
   
   return (
     /**https://draft.spline.design/8bGN4b-UL5ADoLcN/scene.splinecode */
-    <motion.div style={{scale, rotate,position:'sticky'}}  >
+    <motion.div style={{scale, rotate,position:'sticky',width:'inherit'}}  >
     <div className='HeaderSection'>
       <div className='mainHeader' >
          <Row  className='mainHeaderContainer' >
-           <Col lg={7}  xs={24} style={{background:'none'}}  ref={container} >
+           <Col xl={7} lg={24} sm={24} xs={24} style={{background:'none'}}  ref={container} className='HeaderSectioncol1'>
            <div className='HeaderSectionNote1'>
                 <p className='note1'>Company history Profile</p>
                 <p className='note1'> Company Financial Info</p>
@@ -93,11 +93,11 @@ const HeaderSection = ({scrollYProgress}) => {
 
               </div>
            </Col>
-           <Col lg={10} xs={24} className='dShapeContainer'   >
-            { screenSize.width>800?<Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/FrJeTDw7f3K5QoaB/scene.splinecode' className='MothionShape' style={{background:'black'}} /></Suspense> : <Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' className='MothionShape' style={{background:'black'}} /> </Suspense> }
+           <Col xl={10} lg={24} sm={24} xs={24} className='dShapeContainer'   >
+            { screenSize.width>1200?<Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/FrJeTDw7f3K5QoaB/scene.splinecode' className='MothionShape' style={{background:'black'}} /></Suspense> : <Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' className='MothionShape' style={{background:'black'}} /> </Suspense> }
              
            </Col>
-           <Col lg={7}  xs={24} style={{background:'none',position:'relative'}} ref={container}>
+           <Col xl={7} lg={24} sm={24} xs={24} style={{background:'none',position:'relative'}} ref={container} className='HeaderSectioncol2'>
                <Slide direction={'right'} left={"30%%"} text={'GATEWAY'} className={'slide2'} /> 
               <div className='HeaderSectionNote'>
                 <p className='note2'>Track Stock Prices<br/> Follow Financial News <br/>Discover Maeket Trends <br/>Get Recommendation
