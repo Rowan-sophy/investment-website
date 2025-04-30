@@ -1,7 +1,7 @@
  # Investment Website##
 OverviewThe Investment website serves as a guideline for investors, providing access to investment trends, financial news, and comprehensive company analysis.
 ## live demo:
-https://investment-website-finance.vercel.app/
+https://investment-website-responsive.vercel.app/
 ## Features-
 **Market Trends:**  - View investment trends in the stock market for any country around the world, including company names, stock prices, and percentage changes.
 **Financial News:**  - Read financial articles about various major companies by selecting specific companies of interest.- 
