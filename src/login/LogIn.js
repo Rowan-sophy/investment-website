@@ -84,7 +84,7 @@ const LogIn =()=>{
                     <p>
                         Need an Account?<br />
                      <button className="btnSign" >
-                     <Link to='/Register'>Register</Link>
+                     <Link to='/Register' style={{color:'white'}}>Register</Link>
                     </button>
                        
                     </p>

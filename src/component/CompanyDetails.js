@@ -281,7 +281,7 @@ const CompanyDetails =({simplified})=>{
          </div>     
         </Row>
         { (isFetching)?  <Loader classname={LoaderStyle}/>:<>
-        <Row className="show-type2" style={{justifyContent:'left',alignItems:'flex-start',paddingLeft:'32px'}}>
+        <Row className="show-type2" style={{justifyContent:'left',alignItems:'flex-start'}}>
           <DebounceInput
             placeholder="Search any company in market"
             value={searchTerm}

@@ -191,3 +191,28 @@ span{
 .line {
     display: inline-block;
 }
+@media screen and (max-width:1200px){
+    section{
+        width: 80vw !important;
+        height: 60vh !important;
+    }
+    form{
+        width: inherit !important;
+        height: inherit !important;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    input[type="text"],
+    input[type="password"]
+    , textarea{
+        width: 100% !important;
+        border-radius: 8px !important;
+    }
+    .logSection {
+        padding-top: 24px;
+    }
+    .btnSign {
+        color: white !important;
+    }
+   
+}

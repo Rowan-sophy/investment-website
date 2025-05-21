@@ -802,7 +802,10 @@ content: "";
     height: 20vh;
   }
   .MothionShape{
-    background: none; 
+    canvas{
+      background: black !important; 
+    }
+    
    
   }
 
@@ -832,11 +835,12 @@ content: "";
     font-weight: 300;
   }
   .page-sub-title{
-    width:100vw!important;
+    width:95vw!important;
   text-align: center;
     font-size: 2.5vw;
     font-weight: 200;
     padding-top:32px;
+    padding-left: 16px;
     margin:0px;
   }
   .animation-completed {
@@ -975,6 +979,7 @@ content: "";
 }
 .show-type2{
   display: grid;
+  padding-left: 32px;
   grid-auto-flow: column;
   justify-content: end;
   align-items: center;
@@ -1696,6 +1701,9 @@ content: "";
    width: inherit;
    
   }
+  .show-type2{
+    padding-left: 16px;
+  }
   .select-timeperiod2 {
     width:164px !important;
     display:flex !important;
@@ -1798,7 +1806,7 @@ content: "";
   .searchInputFocus  {
     height: 32px !important;
     border-radius: 6px !important;
-    width: 100% !important;
+    width: 85vw !important;
    margin: 0px !important;
    font-size: 14px !important;
   }
@@ -2074,12 +2082,15 @@ input{
   }
   .LAPphoto-container{
     padding-top: 24px;
-    left: 16px;
-    top: 360px;
+    left: 16px !important;
+    top: 360px !important;
   }
   .LAPphoto{
-    width: 85vw;
-    height: 225px;
+    width: 85vw !important;
+    height: 225px !important;
+  }
+  .standPhonePhoto {
+   display: none !important;
   }
   .photoSectiontitle{
     font-weight: 800;
