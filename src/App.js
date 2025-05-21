@@ -2,7 +2,7 @@ import logo from './logo.svg';
 
 import 'antd/dist/reset.css';
 import './App.css';
-
+import ReactDOM from "react-dom";
 import {Routes,Route,Link} from 'react-router-dom';
 import {Layout,Typography, Space,Col,Row,Input } from "antd";
 
