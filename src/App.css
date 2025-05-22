@@ -46,8 +46,12 @@
   background: black !important;
   canvas{
     background: black !important;
+    background-color: black !important;
   }
 }
+  .spline-viewer {
+    background: none;
+  }
 body{
   
  height: 100vh;
@@ -365,6 +369,13 @@ content: "";
 .note4{
   opacity: 20%;
   font-size: 14px;
+}
+svg{
+  background: none !important;
+}
+
+.anticon {
+  color:none !important;
 }
 .note{
   
@@ -2044,7 +2055,7 @@ input{
   svg{
     font-size: 32px !important;
     border-radius: 5px;
-    background: var(--bgSecondary);
+    background: var(--bgSecondary) !important;
     opacity: 50%;
   }
  

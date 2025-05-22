@@ -94,7 +94,7 @@ const HeaderSection = ({scrollYProgress}) => {
               </div>
            </Col>
            <Col xl={10} lg={24} sm={24} xs={24} className='dShapeContainer'   >
-            { screenSize.width>1200?<Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/FrJeTDw7f3K5QoaB/scene.splinecode' className='MothionShape' style={{background:'black'}} /></Suspense> : <Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' className='MothionShape' style={{background:'black'}} /> </Suspense> }
+            { screenSize.width>1200?<Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/FrJeTDw7f3K5QoaB/scene.splinecode' className='MothionShape' style={{background:'black'}} /></Suspense> : <Suspense fallback={<Loader classname={LoaderStyle}/>}> <Spline scene= 'https://draft.spline.design/8NwRFDS2PDU5JynQ/scene.splinecode' className='MothionShape' style={{background:'black',backgroundColor:'black'}} /> </Suspense> }
              
            </Col>
            <Col xl={7} lg={24} sm={24} xs={24} style={{background:'none',position:'relative'}} ref={container} className='HeaderSectioncol2'>
